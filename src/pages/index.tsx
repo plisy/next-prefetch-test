@@ -3,9 +3,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav>
-      <Link href={"/joke"} prefetch>
-        Dad Joke
-      </Link>
+      <Link href={"/joke"}>Dad Joke</Link>
     </nav>
   );
 }
