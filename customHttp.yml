@@ -2,4 +2,4 @@ customHeaders:
   - pattern: '_next/data/**/*.json'
     headers:
       - key: 'Cache-Control'
-        value: 'no-cache, no-store, private, max-age=0, s-maxage=0, stale-if-error=0'
+        value: 'no-store'
